@@ -1,0 +1,176 @@
+/*table implementation*/
+.column {
+	float: left;
+	
+	
+}
+.left {
+	width: 13%;
+	flex: 15%;
+	background-color:#90C7E3;
+	padding-left:2%;
+	 
+	
+}
+.right {
+	width: 85%;
+	flex: 85%;
+	
+	
+}
+.rightcontent{
+	padding-left: 2%;
+}
+.navclass a {
+	text-decoration: none;
+	height: 100%;
+}
+.row {
+	display: -webkit-flex;
+	display: flex;
+	display: -ms-flex;
+}
+.divend {
+	
+	
+	font-size: .70em;
+	font-style:italic;
+	text-align: center;
+	height: 100%;
+	padding:5px;
+}
+.div {
+	margin-bottom: 15px;
+	padding-left: 30px;
+}
+.jobform {
+	text-align: left;
+}
+.jobform1 {
+	margin-bottom: 10px;
+}
+.font {
+	font-size: .8em;
+	padding-left: 10px;
+}
+.scrollabletextbox {
+	overflow:scroll;
+}
+h1
+{
+	color:#FFFFFF;
+	background: url(images/gradientblue.jpg);
+	line-height: 200%;
+	text-align: left;
+	margin:0;
+	
+}
+
+h2
+{
+	font-family:"Georgia",serif;
+	color:#3399CC;
+}	
+
+nav
+{
+	font-weight: bold;
+	text-align: left;
+	background-color:#90C7E3;
+}
+nav>a
+{
+	margin-left: 5px;	
+	
+} 
+footer
+{
+	background-color:#FFFFFF; 
+	font-size: .70em;
+	font-style:italic;
+	text-align: center;
+	
+}
+body 
+{
+	
+	background-color:#FFFFFF;
+	color:#666666 ;
+	font-family: "Verdana",Arial,sans-serif;	
+}
+
+address {
+	font-style:normal;
+}
+#wrapper{
+	margin:auto;
+	width:80%;
+	box-shadow: 5px 10px 18px #888888
+	
+}
+
+@media only screen and (max-width: 420px) {
+	body {
+		width: 100%;
+		margin-left:0%;
+		margin-right:0%;
+	}
+	nav {
+		font-size: 1.2em;
+		max-width: 100%;
+	}
+	.div {
+		margin-bottom: 15px;
+		padding-left: 1px;
+	}
+	.font {
+		font-size: .8em;
+		padding-left: 1px;
+	}
+	h1 {
+		line-height: 205%;
+		font-size: 1.5em;
+	}
+	.left {
+	width: 98%;
+	display:block;
+	
+	
+	background-color:#90C7E3;
+	/*padding-left:2%;*/
+	 
+	
+}
+.right {
+	display:block;
+	width : 100%;
+	
+	
+}
+.rightcontent{
+	padding-left: 2%;
+	display: block;
+}
+.navclass a {
+	text-decoration: none;
+	height: 100%;
+	display: block;
+}
+.row {
+	display: -webkit-flex;
+	display: block;
+	width: 1005;
+	}
+	#wrapper
+	{
+		box-shadow:none;
+		margin-left:0%;
+		margin-right:0%;
+		width:100%;
+	}
+	table{
+		width:100%;
+	}
+	
+
+}
