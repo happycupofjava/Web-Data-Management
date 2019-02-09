@@ -1,5 +1,3 @@
-Full-stack website for a local Pet Store.
+Website for a local Pet Store.
+Technologies: HTML5 and CSS.
 
-Front-end technologies: HTML5, CSS.
-Back-end technologies: Apache Web Server and the MySQL Database using the XAMPP manager console and phpMyAdmin for creating database. 
-Validation: HTML5 form validation on the client-side and PHP validation on the server-side.
