@@ -1,0 +1,6 @@
+MVC Framework: CodeIgniter
+
+Implemented front-end using HTML5 and CSS for styling implemented database on the backend using phpMyAdmin for a local pet store. 
+
+The application deployed has client-side validation using HTML5 and server-side validation with PHP scripting
+built using PHP Code Ignitor Framework for implementing MVC architecture.
