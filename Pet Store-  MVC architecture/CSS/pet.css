@@ -1,0 +1,145 @@
+*
+{
+    color: #666666;
+    background: #FFFFFF;
+    font-family: "Verdana", "Arial", sans-serif ;
+    
+}
+
+h1 
+{
+    
+    background: url(../images/gradientblue.jpg);
+    line-height: 200% ;
+    padding: 0px ; 
+    margin: 0px ;
+    padding-left:3%;
+    
+    box-shadow: 5px 10px 18px #888888;
+    border: none;   
+}
+
+h2
+{
+    color: #3399CC ;
+    font-family: "georgia", serif ; 
+    padding-left: 2%;
+    
+}
+
+#nav,#navbar
+{   
+    float: left;
+    background-color: #90C7E3 ;
+    font-weight: bold ;
+    width: 17%;
+    padding-left: 3%;
+    flex: 17%; 
+    -webkit-flex : 17%;
+    height: auto;
+    padding-top: 1%;
+    
+}
+
+#mains
+{
+    float: left;
+    display : flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    box-shadow: 5px 10px 18px #888888;
+    border: none;        
+}
+#wrapper
+{
+    
+}
+.navi
+{
+    display : block;
+    float: left;
+    text-decoration: none ; 
+    background-color: #90C7E3 ;
+}
+#tel
+{
+    text-decoration: none;
+}
+
+body
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+
+#bod
+{
+    float: left;
+    flex: 80%;
+    webkit-flex: 80%;
+    padding: 0px;
+    overflow: auto;
+}
+
+footer
+{
+    padding-left: 2%;
+    font-size: 0.7em;
+    text-align: center ;
+    font-style: italic ; 
+    
+    
+}
+
+p,address,li, #form1
+{
+    padding-left: 2%;
+}
+
+table
+{
+    width: 60%;
+}
+
+
+img
+{
+    width: 100%;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+    #mains
+    {
+        display: block;
+        overflow: auto;
+    }
+    
+    #nav, #navbar {
+    width: 97%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    height: auto;
+    }
+    #bod {
+    width:100%;
+    overflow: auto;
+  }
+    p, address, li, #form1, footer, h2,h1
+    {
+        padding-left: 3%; 
+    }
+    table
+{
+    width: 100%;
+}
+    
+    body
+{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+}
